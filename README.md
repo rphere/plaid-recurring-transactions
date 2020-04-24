@@ -1,12 +1,14 @@
 # Plaid recurring transactionss
-Cloned from https://github.com/plaid/quickstart.git and updated to compute the recurring transactions from any connected bank account using Plaid API. Examining recurring transactions can help one fish out any subscriptions that they are unwittingly paying for. 
+Cloned from https://github.com/plaid/quickstart.git and updated to compute the recurring transactions from any connected bank account using the Plaid API. 
+
+Detecting recurring transactions can help one fish out any subscriptions that they are unwittingly paying for. 
 
 
 # Quickstart for plaid-python
 
 To run this application locally, first install it and then run either of the flows described below. Additionally, please also refer to the [Quickstart guide](https://plaid.com/docs/quickstart).
 
-## Installing the quickstart app
+## Installing the app
 ``` bash
 git clone https://github.com/rphere/plaid-recurring-transactions.git
 
@@ -31,7 +33,7 @@ PLAID_PUBLIC_KEY='PUBLIC_KEY' \
 PLAID_ENV='sandbox' \
 PLAID_PRODUCTS='transactions' \
 PLAID_COUNTRY_CODES='US,CA,GB,FR,ES,IE,NL' \
-python server.py
+python server_recurring_transactions.py
 
 # Go to http://localhost:5000
 ```
