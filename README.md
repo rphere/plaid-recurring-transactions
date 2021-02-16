@@ -1,7 +1,7 @@
 # Plaid recurring transactionss
 Cloned from https://github.com/plaid/quickstart.git and updated to compute the recurring transactions from any connected bank account using the Plaid API. 
 
-Detecting recurring transactions can help one fish out any subscriptions that they are unwittingly paying for. 
+Detecting recurring transactions can help one fish out any subscriptions they are unwittingly paying for. 
 
 
 # Quickstart for plaid-python
